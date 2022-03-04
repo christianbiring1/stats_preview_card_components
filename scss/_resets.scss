@@ -1,0 +1,25 @@
+
+$font-size: 15px;
+
+$colors: (
+    "main-background": hsl(233, 47%, 7%),
+    "card-background": hsl(244, 38%, 16%),
+    "accent": hsl(277, 64%, 61%),
+
+    "stats": hsl(0, 0%, 100%),
+    "main-paragraph": hsla(0, 0%, 100%, .75),
+    "stat-heading": hsla(0, 0%, 100%, .6)
+);
+
+$font-size: (
+    "regular": 400,
+    "bold": 700,
+);
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+

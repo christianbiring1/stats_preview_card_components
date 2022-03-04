@@ -1,0 +1,6 @@
+@import 'resets';
+
+
+.wrapper{
+    background: map-get($colors,main-background);
+}
