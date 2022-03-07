@@ -3,3 +3,10 @@
     margin: 0;
     padding: 0;
 }
+
+
+@mixin md-mobile{
+    @media screen and (min-width: 600px){
+      @content;
+    }
+}
