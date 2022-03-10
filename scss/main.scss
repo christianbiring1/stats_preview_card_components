@@ -4,69 +4,7 @@
 body{
     background-color: $main-background;
 }
-.wrapper{
-    background: linear-gradient(hsla(277, 64%, 61%, .4)), url('/images/image-header-mobile.jpg') no-repeat;
-    background-size: 100%;
-    width: 90%;
-    margin: 2rem auto;
-    border-radius: 10px;
-    font-size: 15px;
 
-    .container{
-        padding-top: 22rem;
-        text-align: center;
-        width: 80%;
-        margin: 0 auto;
-        font-size: 1.5rem;
-
-        h1{
-            color: $main-heading-stats;
-            padding: 2rem 0 1rem;
-            font-family: 'Inter', sans-serif;
-
-            .header-pink{
-                color: $accent;
-            }
-        }
-
-        .main-text{
-            color: $main-paragraph;
-            margin: 0 auto;
-            padding-bottom: 1rem;
-            font-family: 'Lexend', sans-serif;
-            line-height: 1.8;
-        }
-
-        .foot{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-
-            .stats{
-                color: $main-heading-stats;
-                font-weight: 700;
-                margin-top: 1rem;
-                font-family: 'Inter';
-            }
-
-            .label{
-                color: $stat-headings;
-                text-transform: uppercase;
-                font-size: .8rem;
-                margin-bottom: 1rem;
-                font-family: 'Lexend';
-                
-
-            }
-        }
-    }
-
-    @include md-mobile{
-
-
-    }
-}
-
-
+    
 
 
