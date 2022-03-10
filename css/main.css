@@ -8,6 +8,69 @@
 }
 
 body {
-  background-color: #090b1a;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 80%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2rem auto;
+  background: #1b1938;
+  padding-bottom: 1rem;
+  border-radius: 20px;
+}
+
+.wrapper .image {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.5))), url(/images/image-header-mobile.jpg) no-repeat;
+  background: linear-gradient(rgba(170, 92, 219, 0.5)), url(/images/image-header-mobile.jpg) no-repeat;
+  background-size: 100%;
+  height: 450px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wrapper .main-text {
+  text-align: center;
+  margin: 3rem auto;
+}
+
+.wrapper .main-paragraph {
+  color: white;
+  padding: .5rem 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: Inter;
+}
+
+.wrapper .main-paragraph span {
+  color: #aa5cdb;
+}
+
+.wrapper .stats-heading {
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  padding: 0 2rem;
+  font-size: 15px;
+}
+
+.wrapper .data {
+  padding: 5rem;
+}
+
+.wrapper .data .stats {
+  color: white;
+  font-weight: bold;
+  font-family: Inter;
+  text-transform: uppercase;
+}
+
+.wrapper .data .labels {
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+  font-size: small;
+  font-family: 'Lexend+Deca';
 }
 /*# sourceMappingURL=main.css.map */

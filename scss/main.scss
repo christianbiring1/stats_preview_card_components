@@ -2,7 +2,69 @@
 @import './variables';
 
 body{
-    background-color: $main-background;
+    // background-color: $main-background;
+    font-size: 20px;
+}
+
+.wrapper{
+    width: 80%;
+    align-items: center;
+    margin: 2rem auto;
+    background: $card-background;
+    padding-bottom: 1rem;
+    border-radius: 20px ;
+    
+    .image{
+        background: linear-gradient(hsla(277, 64%, 61%, .5)),url(/images/image-header-mobile.jpg) no-repeat;
+        background-size: 100%;
+        height: 450px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        
+    }
+
+    .main-text{
+        text-align: center;
+        margin: 3rem auto;
+
+    }
+    .main-paragraph{
+        color: $main-heading-stats;
+        padding: .5rem 2rem;
+        margin-bottom: 2rem;
+        text-align: center;
+        font-weight: bold;
+        font-family: Inter;
+
+        & span{
+            color: $accent;
+        }
+        
+    }
+    .stats-heading{
+        color: $main-paragraph;
+        text-align: center;
+        padding: 0 2rem;
+        font-size: 15px;
+    }
+    .data{
+        padding: 5rem;
+
+        .stats{
+            color: $main-heading-stats;
+            font-weight: bold;
+            font-family: Inter;
+            text-transform: uppercase;
+        }
+
+        .labels{
+            color: $stat-headings;
+            text-transform: uppercase;
+            font-size: small;
+            font-family: 'Lexend+Deca';
+        }
+
+    }
 }
 
     
