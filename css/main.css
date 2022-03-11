@@ -35,8 +35,8 @@
     background-size: 100%;
     width: 50%;
     height: 250px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
   }
   .wrapper .main-paragraph {
     margin: 2rem auto;
@@ -75,7 +75,7 @@ body {
   margin: 2rem auto;
   background: #1b1938;
   padding-bottom: .5rem;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .wrapper .image {
@@ -83,8 +83,8 @@ body {
   background: linear-gradient(rgba(170, 92, 219, 0.5)), url(/images/image-header-mobile.jpg) no-repeat;
   background-size: 100%;
   height: 280px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .wrapper .main-text {

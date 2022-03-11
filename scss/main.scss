@@ -13,14 +13,14 @@ body{
     margin: 2rem auto;
     background: $card-background;
     padding-bottom: .5rem;
-    border-radius: 20px ;
+    border-radius: 10px ;
     
     .image{
         background: linear-gradient(hsla(277, 64%, 61%, .5)),url(/images/image-header-mobile.jpg) no-repeat;
         background-size: 100%;
         height: 280px;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
         
     }
 
