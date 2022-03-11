@@ -1,0 +1,40 @@
+@include desketop{
+    .wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        height: 256px;
+        margin: 5rem auto; 
+            .image{
+                display: none;
+            }
+            .desktop-img{
+                background: linear-gradient(hsla(277,64%, 61%, .5)), url(/images/image-header-desktop.jpg) no-repeat;
+                background-size: 100%;
+                width: 50%;
+                height: 250px;
+                border-bottom-right-radius: 20px;
+                border-top-right-radius: 20px;
+            }
+            .main-paragraph{
+                margin: 2rem auto;
+            }
+
+            .main-text{
+                padding: .5rem;
+                width: 50%;
+            }
+
+            .data{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .container{
+                margin: 0 1rem;
+                margin-bottom: -1rem;
+            }
+
+    
+        }
+    }

@@ -7,6 +7,57 @@
   padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 256px;
+    margin: 5rem auto;
+  }
+  .wrapper .image {
+    display: none;
+  }
+  .wrapper .desktop-img {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.5))), url(/images/image-header-desktop.jpg) no-repeat;
+    background: linear-gradient(rgba(170, 92, 219, 0.5)), url(/images/image-header-desktop.jpg) no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: 250px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .wrapper .main-paragraph {
+    margin: 2rem auto;
+  }
+  .wrapper .main-text {
+    padding: .5rem;
+    width: 50%;
+  }
+  .wrapper .data {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .wrapper .container {
+    margin: 0 1rem;
+    margin-bottom: -1rem;
+  }
+}
+
 body {
   background-color: #090b1a;
   font-size: 20px;
@@ -19,7 +70,7 @@ body {
           align-items: center;
   margin: 2rem auto;
   background: #1b1938;
-  padding-bottom: 1rem;
+  padding-bottom: .5rem;
   border-radius: 20px;
 }
 
@@ -27,20 +78,20 @@ body {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(170, 92, 219, 0.5))), url(/images/image-header-mobile.jpg) no-repeat;
   background: linear-gradient(rgba(170, 92, 219, 0.5)), url(/images/image-header-mobile.jpg) no-repeat;
   background-size: 100%;
-  height: 450px;
+  height: 280px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .wrapper .main-text {
   text-align: center;
-  margin: 3rem auto;
+  margin: 2rem auto;
 }
 
 .wrapper .main-paragraph {
   color: white;
-  padding: .5rem 2rem;
-  margin-bottom: 2rem;
+  padding: .1rem 2rem;
+  margin-bottom: 1rem;
   text-align: center;
   font-weight: bold;
   font-family: Inter;
@@ -58,7 +109,7 @@ body {
 }
 
 .wrapper .data {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 .wrapper .data .stats {
@@ -66,7 +117,7 @@ body {
   font-weight: bold;
   font-family: Inter;
   text-transform: uppercase;
-  padding: .5rem;
+  padding: .2rem;
 }
 
 .wrapper .data .labels {
@@ -74,6 +125,6 @@ body {
   text-transform: uppercase;
   font-size: small;
   font-family: 'Lexend+Deca';
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
