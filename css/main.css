@@ -8,6 +8,7 @@
 }
 
 body {
+  background-color: #090b1a;
   font-size: 20px;
 }
 
@@ -65,6 +66,7 @@ body {
   font-weight: bold;
   font-family: Inter;
   text-transform: uppercase;
+  padding: .5rem;
 }
 
 .wrapper .data .labels {
@@ -72,5 +74,6 @@ body {
   text-transform: uppercase;
   font-size: small;
   font-family: 'Lexend+Deca';
+  padding-bottom: 2rem;
 }
 /*# sourceMappingURL=main.css.map */

@@ -2,7 +2,7 @@
 @import './variables';
 
 body{
-    // background-color: $main-background;
+    background-color: $main-background;
     font-size: 20px;
 }
 
@@ -55,6 +55,7 @@ body{
             font-weight: bold;
             font-family: Inter;
             text-transform: uppercase;
+            padding: .5rem; 
         }
 
         .labels{
@@ -62,6 +63,7 @@ body{
             text-transform: uppercase;
             font-size: small;
             font-family: 'Lexend+Deca';
+            padding-bottom: 2rem;
         }
 
     }
