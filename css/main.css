@@ -20,7 +20,11 @@
         -ms-flex-pack: center;
             justify-content: center;
     height: 256px;
-    margin: 5rem auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
   }
   .wrapper .image {
     display: none;
