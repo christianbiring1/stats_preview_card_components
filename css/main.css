@@ -41,6 +41,9 @@
   .wrapper .main-paragraph {
     margin: 2rem auto;
   }
+  .wrapper .stats-heading {
+    text-align: right;
+  }
   .wrapper .main-text {
     padding: .5rem;
     width: 50%;
